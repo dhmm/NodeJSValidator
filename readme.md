@@ -2,7 +2,7 @@
 
 Simple validator not Node.JS. You can validate user input using this library.
 
-###How to use
+### How to use
 
 You must include the library in your project
 ```
@@ -41,7 +41,7 @@ if(validator.validate(testBody , validationRules)) {
 }
 ```
 
-###Validation rules
+### Validation rules
 1)  req             - Required
 2)  min_len[value]  - Min length must be greater or equal to value
 3)  max_len[value]  - Max length must be less or equal to value
